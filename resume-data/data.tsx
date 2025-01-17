@@ -100,6 +100,19 @@ That&apos;s pretty much everything about me.
   ],
   projectData: [
     {
+      name: "ShapexUI",
+      title: "ShapexUI",
+      results: [
+        { title: "This is a collection of re-usable components." },
+        { title: "You can copy and paste into your web apps." },
+      ],
+      link: "https://www.shapexui.site",
+      code:"https://github.com/yogesh2104/shapex-ui",
+      image: '/project/shapexui.png',
+      tools: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'Shadcn/ui'],
+      role: 'Maintainer',
+    },
+    {
       name: "Debate-AI",
       title: "Debate-AI",
       results: [
@@ -111,24 +124,6 @@ That&apos;s pretty much everything about me.
       image: '/project/debate.png',
       tools: ['NextJs 15', 'MongoDB(Prisma ORM)', 'AuthJs'],
       role: 'Full Stack Developer',
-      content: () => {
-        return (
-          <>
-            <div>
-              <p>Tech Stack : Nextjs 15</p>
-              <p>Database : MongoDB(Prisma ORM)</p>
-              <p>Authentication : AuthJs</p>
-              <p>CSS: Tailwind CSS/Shadcn ui</p>
-            </div>
-            <p>
-            Developed an AI-powered debate platform using Gemini API, enabling users to engage in debates on various topics with difficulty levels (easy, medium, expert), featuring transcripts, summaries, scores, and feedback.
-            </p>
-            <p>
-            Implemented features to generate debate summaries with performance scores, personalized feedback, and resource recommendations, enhancing user engagement and providing actionable insights for improvement.
-            </p>
-          </>
-        );
-      },
     },
     {
       name: "Noter",
@@ -141,46 +136,7 @@ That&apos;s pretty much everything about me.
       code:"https://github.com/yogesh2104/noter",
       image: '/project/noter.png',
       tools: ['NextJs', 'ConvexDB', 'Clerk Auth'],
-      role: 'Full Stack Developer',
-      content: () => {
-        return (
-          <>
-            <div>
-              <p>Tech Stack : Nextjs</p>
-              <p>Database : Convex</p>
-              <p>Authentication : Clerk</p>
-              <p>CSS: Tailwind CSS</p>
-            </div>
-            <p>
-            Real-time note-taking application inspired by Notion, enabling seamless real-time editing and note-sharing using ConvexDB for efficient data synchronization. Leveraged NextJs for server-side rendering optimizing performance, load times. Designed a responsive and intuitive user interface to enhance user experience and collaboration.
-            </p>
-          </>
-        );
-      },
-    },
-    {
-      name: "Eldora UI",
-      title: "Re-Usable Components",
-      results: [
-        { title: "Actively contribute in Eldora UI" },
-        { title: "This is a collection of re-usable components." },
-        { title: "You can copy and paste into your web apps." },
-      ],
-      link: "www.eldoraui.site",
-      code: 'https://github.com/yogesh2104/eldoraui',
-      image: '/project/eldoraui.png',
-      tools: [], // top five 
-      role: 'Open Source Project Mantainer',
-      content: () => {
-        return (
-          <>
-          <p>
-          Contributed to the Eldora UI project, developing a library of reusable UI components using Next.js, TypeScript,TailwindCSS, and Framer Motion. Enhanced components for accessibility, responsiveness, and performance, ensuring seamless integration and exceptional user experiences across platforms.
-          </p>
-          </>
-        );
-      },
-
+      role: 'Full Stack Developer'
     },
     {
       name: "PromptForAi",
@@ -194,14 +150,7 @@ That&apos;s pretty much everything about me.
       image: '/project/promtForAi.png',
       tools: ['NextJs', 'MongoDB', 'NextAuth'],
       role: 'Full Stack Developer',
-      code: 'https://github.com/yogesh2104/promptForAI',
-      content: () => {
-        return (
-          <p>
-            PromptForAi Is the place you can Discover AI Prompt and Share AI Prompts. You can create new prompt and you can either share or save as draft. Also you can Search other people prompt. To build this project I have to use NextJs with edge runtime environment and for authentication use NextAuth(only login with Google provider) and database I have MongoDB Atlas and hosted on vercel.
-          </p>
-        );
-      },
+      code: 'https://github.com/yogesh2104/promptForAI'
     },
     {
         name: "Smart Health Advisor",
@@ -216,13 +165,6 @@ That&apos;s pretty much everything about me.
         tools: ['NextJs', 'Shadcn UI', 'Django','Python'],
         role: 'Frontend Developer',
         code: 'https://github.com/saurabhsharma104/Smart-Health-Advisor',
-        content: () => {
-            return (
-              <p>
-                Smart Health Advisor this is Revolutionary software predicts diseases based on symptoms, enhancing early detection and healthcare efficiency. In this project my role was frontend developer to build this project I have to use NextJs with Shadcn UI.
-              </p>
-            );
-        },
     }, 
     {
         name: "Coding InterView",
@@ -236,13 +178,6 @@ That&apos;s pretty much everything about me.
         tools: ['HTML', 'CSS','Javascript', 'Bootstrap'],
         role: 'Frontend Developer',
         code: 'https://github.com/yogesh2104/CodingInterView',
-        content: () => {
-            return (
-              <p>
-                This is simple static web page which is simplified version of coding-interview-university github repo.
-              </p>
-            );
-        },
     },
     {
       name: "ThreeJs Diamond",
@@ -256,13 +191,6 @@ That&apos;s pretty much everything about me.
       tools: ['Nextjs','Javascript', 'ThreeJS', 'Zustand', 'Tailwind CSS'],
       role: 'Frontend Developer',
       code: null,
-      content: () => {
-          return (
-            <p>
-              This is 3D Dimaond Renderer. And allow you to change ring and diamond color.
-            </p>
-          );
-      },
     }, 
   ],
 };
