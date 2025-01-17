@@ -1,12 +1,8 @@
 "use client"
 import { BLUR_DELAY, DATA } from "@/resume-data/data";
 import BlurFade from "./blur-fade";
-import { useOutsideClick } from "@/hook/use-outside-click";
-import { ReactNode, useEffect, useId, useRef, useState } from "react";
-import { AnimatePresence,motion } from "framer-motion";
-import Image from "next/image";
-import { CircleCheckBig, CircleX, MoveRight } from "lucide-react";
-import { Badge } from "./ui/badge";
+import { ReactNode } from "react";
+import { CircleCheckBig, MoveRight } from "lucide-react";
 import { Button } from "./ui/button";
 
 

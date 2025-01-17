@@ -13,7 +13,7 @@ function Home() {
                     <div className="gap-2 flex justify-between">
                     <div className="flex-col flex flex-1 space-y-1.5">
                         <h1 className="relative text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                        Hi, I'm {DATA.personalData.name}
+                        Hi, I&apos;m {DATA.personalData.name}
                         </h1>
                         <BlurFade delay={BLUR_DELAY}>
                         <div className="max-w-[600px] prose text-pretty font-sans text-lg dark:prose-invert">
