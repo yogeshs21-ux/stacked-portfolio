@@ -21,10 +21,10 @@ const StackedMenu: React.FC = () => {
   const [isChecked, setIsChecked] = useState(false);
   
   const pages: PageData[] = [
-    { id: 'page1', title: 'ABOUT', background: 'bg-[#40916C]',content:(<AboutUS/>)},
-    { id: 'page2', title: 'EXPERIENCE', background: 'bg-[#8D4B55]', content:(<Experience/>)},
-    { id: 'page3', title: 'PROJECT', background: 'bg-[#6998AB]' , content:(<div className="mb-10 pb-16"><Project/></div>)},
-    { id: 'page4', title: 'HOME', background: 'bg-[#B1D0E0]', content:(<Home/>) },
+    { id: 'page1', title: 'ABOUT', background: '[#40916C]',content:(<AboutUS/>)},
+    { id: 'page2', title: 'EXPERIENCE', background: '[#8D4B55]', content:(<Experience/>)},
+    { id: 'page3', title: 'PROJECT', background: '[#6998AB]' , content:(<div className="mb-10 pb-16"><Project/></div>)},
+    { id: 'page4', title: 'HOME', background: '[#B1D0E0]', content:(<Home/>) },
   ];
 
   useEffect(() => {
@@ -79,9 +79,10 @@ const StackedMenu: React.FC = () => {
         {pages.map((page) => (
           <div 
             key={page.id}
-            className={cn("page text-white overflow-auto",isChecked ? page.background : 'bg-black',)}
+            className={cn("page text-white overflow-auto",isChecked ? `border-4 bg-black rounded-2xl` : 'bg-black',)}
             id={page.id}
           >
+          
             <div className="head sticky top-0 cursor-pointer">
               <label htmlFor="toggle" className="flex justify-center items-center">
                 {isChecked||<AlignJustify className='size-6 mx-2 mt-4 text-white flex justify-center items-center cursor-pointer'/>}
