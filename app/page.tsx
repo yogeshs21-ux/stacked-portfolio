@@ -83,14 +83,14 @@ const StackedMenu: React.FC = () => {
             id={page.id}
           >
           
-            <div className="head sticky top-0 cursor-pointer">
+            <div className="head sticky top-0 cursor-pointer z-[99999]">
               <label htmlFor="toggle" className="flex justify-center items-center">
                 {isChecked||<AlignJustify className='size-6 mx-2 mt-4 text-white flex justify-center items-center cursor-pointer'/>}
               </label>
               {isChecked && <div className="ml-2 mt-2">{page.title}</div>}
             </div>
             <div className="content">
-              <div className="text max-w-4xl container mx-auto h-svh">
+              <div className="text max-w-4xl container mx-auto h-svh font-sans">
                {page.content}
               </div>
             </div>

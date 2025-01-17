@@ -21,24 +21,24 @@ interface Project {
 const Project=()=>{
 
   return(
-    <section className="">
+    <section className="pb-36 md:pb-0">
       <BlurFade delay={BLUR_DELAY * 2} className="mt-4">
         <div className="text-center md:text-start">
-          <h2 className="text-6xl font-bold mb-5 inline-flex items-center ">
+          <h2 className="text-5xl md:text-6xl font-bold md:mb-6 inline-flex items-center ">
             Project
             <div className="relative">
-              <span className="absolute top-2 size-3 bg-emerald-400 rounded-full" />
+              <span className="absolute top-2 size-2 md:size-3 bg-emerald-400 rounded-full" />
             </div>
           </h2>
         </div>
       </BlurFade>
 
-      <div className="flex flex-col md:mt-6 gap-10 font-sans">
+      <div className="flex flex-col gap-1 md:gap-10 pb-20 md:pb-0 font-sans">
         {DATA.projectData.map((project,index)=>(
           <div 
             key={project.title} 
             style={{top:`calc(37px + ${index*30}px)`}}
-            className="bg-gray-800 rounded-3xl overflow-hidden z-0 after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-4 after:pointer-events-none md:pt-10 md:px-6 lg:pt-12 lg:px-12 relative md:sticky ">
+            className="bg-gray-800 rounded-3xl overflow-hidden z-0 after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl after:outline-white/20 px-8 pt-4 after:pointer-events-none md:pt-12 md:px-6 lg:pt-16 lg:px-16 relative md:sticky ">
             <div className="lg:grid lg:grid-cols-2 lg:gap-2 sticky top-9">
               <div className="lg:pb-16">
                 <div>

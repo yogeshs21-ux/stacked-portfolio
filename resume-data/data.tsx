@@ -3,10 +3,8 @@ export const BLUR_DELAY=0.04
 export const DATA = {
   personalData:{
     name:"Yogesh Singh",
-    profile:"/",
-    designation:"Software Developer",
     description:"I am a Frontend Developer. I love to learn and explore new technologies and am passionate about problem-solving. I love to do most of the things using TypeScript.",
-    skill:['TypeScript',"Javascript","Python","NodeJs","ReactJs","NextJs","Zustand","ExpressJs","MongoDB","Docker",'GraphQL'],
+    skill:["Javascript","Python",'TypeScript',"Node.js","React.js","Next.js","Remix.js","Svelte.js","Zustand","Jotai","Express.js","MongoDB","Docker",'GraphQL'],
     email:"singhyogesh2104@gmail.com",
     phone:"+91 8850281705",
     link:[

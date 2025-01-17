@@ -8,6 +8,9 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist:[
+	'h-[calc(100%-3rem)]',
+  ],
   theme: {
 	container: {
 		center: true,

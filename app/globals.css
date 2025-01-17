@@ -13,6 +13,7 @@ body {
   padding: 0;
   background: rgb(205, 219, 238);
   overflow: hidden;
+  scroll-behavior: initial;
 }
 
 
