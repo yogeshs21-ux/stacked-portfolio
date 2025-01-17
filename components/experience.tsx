@@ -14,7 +14,7 @@ function Experience() {
           </div>
         </h2>
 
-        <div className="space-y-8">
+        <div className="space-y-8 mb-16">
           {DATA.experiences.map((experience, index) => (
             <div key={`${experience.company}-${index}`} className="space-y-4 border p-4 rounded-2xl">
                 <div className="flex justify-between items-start">

@@ -11,10 +11,6 @@ export const DATA = {
     phone:"+91 8850281705",
     link:[
       {
-        name:"instagram",
-        url:"https://instagram.com/im.yogesh_"
-      },
-      {
         name:"github",
         url:"https://github.com/yogesh2104/abt.yogesh"
       },
@@ -25,6 +21,10 @@ export const DATA = {
       {
         name:"x",
         url:"https://x.com/im_yogesh88"
+      },
+      {
+        name:"instagram",
+        url:"https://instagram.com/im.yogesh_"
       },
       {
         name:"stackoverflow",
