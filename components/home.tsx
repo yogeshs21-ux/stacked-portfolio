@@ -11,7 +11,7 @@ function Home() {
         <>
         <div className="min-h-[calc(100vh-6rem)] flex flex-col justify-center">
             <BlurFade delay={BLUR_DELAY}>
-                <h1 className="text-5xl md:text-6xl font-bold mb-4 text-black dark:text-white">
+                <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
                     Hi, I&apos;m {DATA.personalData.name}
                 </h1>
             </BlurFade>
@@ -23,7 +23,7 @@ function Home() {
             
             <div className="mb-8">
                 <BlurFade delay={BLUR_DELAY * 9}>
-                    <h2 className="text-2xl font-semibold mb-4 text-black dark:text-white">Skills</h2>
+                    <h2 className="text-2xl font-semibold mb-4 text-white">Skills</h2>
                 </BlurFade>
             <div className="flex flex-wrap gap-3">
                 {DATA.personalData.skill.map((skill,id) => (
