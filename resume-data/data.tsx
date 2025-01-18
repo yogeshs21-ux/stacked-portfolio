@@ -29,7 +29,7 @@ export const DATA = {
         url:"https://stackoverflow.com/users/19811812/yogesh-singh?tab=profile"
       }
     ],
-    resume: "",
+    resume: "/SinghYogesh.pdf",
     aboutMe:`I'm a 25 y/o belonging to the Homo sapiens species 🤣 — a brother, a son, a friend, and a self-taught web developer and programmer. I have completed my **MCA (Master of Computer Applications)**, but my programming journey started much earlier. Back in the second year of my BSc (because my first year passed in sports 😁). My web development journey began with frontend development, using only **HTML**, **CSS**, and simple **JavaScript**. If you're curious about the technologies I know, here&apos;s the list: - **Python** (❤️) - **JavaScript** - Frameworks: **React.js**, **Next.js**, **Tailwind CSS** - **MERN Stack** (Currently Learning 🚀) Apart from coding and programming, I enjoy: - Playing **cricket** (🏏) — because touching grass is important! - Listening to **soft music** while watching clouds drift by 😳 - Playing mobile games like **Battle Royale** games When I&apos;m not doing any of the above. 
 
 ---

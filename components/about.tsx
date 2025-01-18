@@ -21,7 +21,7 @@ const AboutUS=()=>{
                 </div>
 
                 <BlurFade delay={BLUR_DELAY * 4 }>
-                    <ReactMarkdown children={DATA.personalData.aboutMe} remarkPlugins={[remarkGfm]} className="prose max-w-full text-balance font-sans text-lg text-muted-foreground dark:prose-invert"/>
+                    <ReactMarkdown children={DATA.personalData.aboutMe} remarkPlugins={[remarkGfm]} className="prose max-w-full text-balance font-sans text-lg text-gray-300/80 dark:prose-invert"/>
                 </BlurFade>
 
                 <div className="flex gap-3 capitalize py-4 mb-16 sm:flex-row">

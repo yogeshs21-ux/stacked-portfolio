@@ -38,13 +38,17 @@ function Home() {
 
             <BlurFade delay={BLUR_DELAY*30}>
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <Button className="group rounded-full">
-                        <Download className="mr-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
-                        Download CV
+                    <Button className="group rounded-full" asChild>
+                        <a href={DATA.personalData.resume} download>
+                            <Download className="mr-2 h-4 w-4 transition-transform group-hover:-translate-y-1" />
+                            Download CV
+                        </a>
                     </Button>
-                    <Button variant="outline" className="group text-black dark:text-white rounded-full">
+                    <Button variant="outline" className="group text-black dark:text-white rounded-full" asChild>
+                        <a href={`mailto:${DATA.personalData.email}`}>
                         <Mail className="mr-2 h-4 w-4 transition-transform group-hover:rotate-12" />
                         Contact Me
+                        </a>
                     </Button>
                 </div>
             </BlurFade>
