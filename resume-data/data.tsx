@@ -72,11 +72,11 @@ That&apos;s pretty much everything about me.
   ],
   experiences: [
     {
-      company: "Emarsun Technology",
+      company: "ABC Company",
       role: "Full Stack Developer",
       startDate: "Nov 2024",
-      endDate: "Jan 2025",
-      location: "Thane, IN",
+      endDate: "Till Now",
+      location: "U.S",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS","Express.js","Mongodb", "Shadcn UI", "Zustand"]
     },
     {
